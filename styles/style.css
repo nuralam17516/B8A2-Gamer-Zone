@@ -112,6 +112,7 @@
 .btn-1 {
     border: none;
     border-radius: 48px;
+    padding: 21px 40px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
     font-size: 20px;
@@ -131,4 +132,61 @@
 
 .banner-btn button {
     padding: 21px 40px;
+}
+
+/* gamer section style start  */
+.gamer-container {
+    margin-left: 100px;
+    margin-right: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.gamer-img {
+    width: 50%;
+}
+
+.gamer-content {
+    width: 50%;
+    text-align: right;
+}
+
+.gamer-img img {
+    width: 100%;
+}
+
+.gamer-title {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    margin: 0px;
+    padding: 24px 0px 24px 30px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gamer-note {
+    margin: 0px;
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.unleash {
+    margin: 0px;
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
 }

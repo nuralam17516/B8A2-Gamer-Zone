@@ -39,4 +39,24 @@
         margin-bottom: 20px;
     }
     /* banner section responsive end */
+
+    /* gamer section responsive start */
+    .gamer-container{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .gamer-img {
+        width: 100%;
+    }
+    .gamer-content {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .gamer-note {
+        font-size: 16px;
+    }
+    .unleash {
+        font-size: 20px;
+    }
 }
