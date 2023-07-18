@@ -190,3 +190,54 @@
     font-weight: 700;
     line-height: 45px;
 }
+
+/* card style start here  */
+
+.card-container {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 140px;
+}
+.card-title {
+    margin-bottom: 0px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-description {
+    margin: 0px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-box img {
+   height: 350px;
+    width: 272px;
+    padding: 10px;
+}
+
+.card-box {
+    display: flex;
+}
+
+.card-note {
+    margin: 0px;
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
