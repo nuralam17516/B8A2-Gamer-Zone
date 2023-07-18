@@ -1,0 +1,20 @@
+/* Mobile device responsive */
+@media screen and (max-width: 576px) {
+   
+   /* navbar responsive start here  */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .nav-logo-container{
+        width: auto;
+    }
+    .nav-item-list{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        gap: 30px;
+    }
+    /* navbar responsive end */
+}
