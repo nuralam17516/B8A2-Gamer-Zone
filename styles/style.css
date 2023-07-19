@@ -256,7 +256,7 @@
     align-items: center;
     margin-left: 200px;
     margin-right: 140px;
-    /* margin-top: 100px; */
+    margin-bottom: 100px;
 }
 
 .play-content {
@@ -304,6 +304,7 @@
 /* play world section style start */
 .play-world-container {
     border: none;
+    height: fit-content;
     max-width: 80%;
     margin: auto;
     display: grid;
@@ -311,13 +312,11 @@
 }
 
 .games-box {
-    border: none;
-    border-radius: 50px;
-    padding: 5px;
+    /* padding: 5px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .play-world-container img {
@@ -325,7 +324,7 @@
 }
 
 .play-world-container p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* footer section style start */
@@ -344,13 +343,23 @@
     color: #FFF;;
 
 }
+.footer-info{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
 .footer-info a {
     text-decoration: none;
     padding-right: 60px;
     color: #FFF;
 }
 .social-links{
-    margin-top: 30px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
 }
 .social-links .fa-brands {
     font-size: 40px;
@@ -358,7 +367,10 @@
     color: #FFF;
 }
 .policy-container{
-    margin-top: 30px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
     
 }
 .policy-container a{
