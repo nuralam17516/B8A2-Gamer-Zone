@@ -74,7 +74,6 @@
 
 .banner-content {
     width: 50%;
-    /* height: 600px; */
     background-image: url(/images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -312,7 +311,6 @@
 }
 
 .games-box {
-    /* padding: 5px; */
     display: flex;
     align-items: center;
     justify-content: center;
