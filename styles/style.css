@@ -294,3 +294,21 @@
     margin-top: -170px;
     max-width: 200px;
 }
+
+/* play world section style start */
+.play-world-container{
+    border: 1px solid red;
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    
+}
+.games-box{
+    border: 1px solid pink;
+    border-radius: 50px;
+    padding: 10px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
