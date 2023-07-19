@@ -54,8 +54,14 @@
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 16px 24px;
     font-size: 18px;
+    border: none;
 }
-
+.fa-brands{
+    font-size: 30px;
+}
+#yt{
+    color: red;
+}
 /* banner section style start here */
 
 .banner-container {
@@ -296,19 +302,72 @@
 }
 
 /* play world section style start */
-.play-world-container{
-    border: 1px solid red;
+.play-world-container {
+    border: none;
     max-width: 80%;
     margin: auto;
     display: grid;
-    
+    grid-template-columns: repeat(5, 1fr);
 }
-.games-box{
-    border: 1px solid pink;
+
+.games-box {
+    border: none;
     border-radius: 50px;
-    padding: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-world-container img {
+    width: 40px;
+}
+
+.play-world-container p {
+    font-size: 16px;
+}
+
+/* footer section style start */
+.footer-container{
+    border: 1px solid black;
+    margin-top: 130px;
+    text-align: center;
+    background-color: #0B0223;;
+}
+.footer-logo-container{
     width: max-content;
+    margin: auto;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #FFF;;
+
+}
+.footer-info a {
+    text-decoration: none;
+    padding-right: 60px;
+    color: #FFF;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links .fa-brands {
+    font-size: 40px;
+    padding: 15px;
+    color: #FFF;
+}
+.policy-container{
+    margin-top: 30px;
+    
+}
+.policy-container a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+.copyright{
+    margin-top: 30px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
 }
